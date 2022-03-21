@@ -10,6 +10,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
 /* do not edit this footer */
@@ -23,4 +24,19 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  padding-top: 32px;
+  text-align: center;
+
+}
+
+.box {
+  flex-basis: 200px;
+
+  /* max-width: 200px; not sure what the significance of flex-basis vs max-width is*/
 }
